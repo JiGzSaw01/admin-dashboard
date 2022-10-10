@@ -9,3 +9,21 @@
     border-radius: 10px;
     border: 1px solid #d1d5db;
 }
+
+.upper-grid {
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+}
+
+.profile-area {
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+}
+
+
+.profile-image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    border: 1px solid #f8fafc;
+}
